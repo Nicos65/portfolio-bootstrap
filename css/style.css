@@ -27,6 +27,7 @@ section {
 #contact {
     background-color: antiquewhite;
 }
+
 .form input,
 textarea {
     border: none;
@@ -59,8 +60,15 @@ textarea:hover {
         margin-bottom: 0.5rem;
         border-radius: 0.5rem;
     }
-    .presentation p{
+
+    .presentation p {
         font-size: 0.7rem;
+    }
+}
+
+@media all and (max-width:767px) {
+    #carou {
+        display: none;
     }
 }
 
